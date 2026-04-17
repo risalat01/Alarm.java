@@ -1,5 +1,6 @@
 class Solution {
     public int maxDistance(int[] position, int m) {
+       
         Arrays.sort(position);
         int n = position.length;
         int ans = 1;
@@ -27,3 +28,4 @@ class Solution {
          return ballPlaced == noOfBall;
     }
 }
+    
